@@ -1,0 +1,34 @@
+{
+  "name": "controlgastosbackend",
+  "version": "1.0.0",
+  "description": "Servidor para la aplicacion movil de control de gastos",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "dev": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JorgeOARL121820/controlGastosBackend.git"
+  },
+  "author": "Jorge Luis Oviedo Aguilar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JorgeOARL121820/controlGastosBackend/issues"
+  },
+  "homepage": "https://github.com/JorgeOARL121820/controlGastosBackend#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.10.0",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.2.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
